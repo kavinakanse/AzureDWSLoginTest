@@ -29,8 +29,10 @@ steps:
   inputs:
     orchestratorConnection: 'AzureDev'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
+    createProcess: false
     folderName: 'Kavina'
-    traceLevel: 'None'
+    entryPoints: 
+    traceLevel: 'Information'
 
 - task: UiPathTest@6
   inputs:
