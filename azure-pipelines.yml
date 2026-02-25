@@ -10,6 +10,11 @@ pool:
   vmImage: windows-latest
 
 steps:
+
+- task: UiPathInstallPlatform@6
+  inputs:
+    cliVersion: 'Windows.25.10.7'
+    
 - task: UiPathPack@6
   inputs:
     projectJsonPath: 'project.json'
@@ -18,6 +23,7 @@ steps:
     outputType: 'Tests'
     orchestratorConnection: 'AzureDev'
     traceLevel: 'None'
+
 
 - task: UiPathDeploy@6
   inputs:
