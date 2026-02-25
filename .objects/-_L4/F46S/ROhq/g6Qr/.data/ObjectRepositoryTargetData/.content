@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1Ra0yWOHuUeFVjqZDuH3zQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demowebshop.tricentis.com" CVScreenId="a96e6c24-fdc1-435b-b5f3-8ff71e439c65" CvTextArea="1199, 251, 34, 14" CvTextArgument="Log in" CvType="Text" DesignTimeRectangle="1190, 251, 43, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='ico-login' tag='A' /&gt;" Guid="fbecaecb-cb84-41d6-9725-8d68a4d986e9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Demo Web Shop' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a96e6c24-fdc1-435b-b5f3-8ff71e439c65" CvTextArea="1132, 251, 47, 14" CvTextArgument="Register" CvType="Text" DesignTimeRectangle="1123, 251, 55, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ico-register' tag='A' type='' aaname='Register' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Register' /&gt;" Guid="9fd2106c-9427-421a-869d-9e88e6a9d099" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3c3280fe630600beed314e7321798cea.jpg" xmlns="">00iJ7VdnFxUCowEWqZxm5pg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

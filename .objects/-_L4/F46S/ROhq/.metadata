@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Demo Web Shop",
+  "Type": "Screen",
+  "Id": "ROhqMFgD70u3dY0_-v_jHw",
+  "Reference": "OfdMemDqOUmbo7CxH8llbw/ROhqMFgD70u3dY0_-v_jHw",
+  "ParentRef": "OfdMemDqOUmbo7CxH8llbw/F46S0WIlvkSrD_GX6OyFqg",
+  "Created": "2026-02-25T09:11:37.1834119Z",
+  "Updated": "2026-02-25T09:11:37.1834119Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

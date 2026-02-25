@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Login to Chrome Demo Web Shop",
+  "Type": "Screen",
+  "Id": "-Wi1A5eZhUaDwQ8JhCStnw",
+  "Reference": "OfdMemDqOUmbo7CxH8llbw/-Wi1A5eZhUaDwQ8JhCStnw",
+  "ParentRef": "OfdMemDqOUmbo7CxH8llbw/cTi-eUbVOEmURp235qnDjA",
+  "Created": "2026-02-25T09:19:49.9894366Z",
+  "Updated": "2026-02-25T09:19:49.9894366Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

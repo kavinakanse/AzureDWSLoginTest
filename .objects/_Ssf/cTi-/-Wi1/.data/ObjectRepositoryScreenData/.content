@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="a7NtVNh4y06TeRubsLGubw" Reference="OfdMemDqOUmbo7CxH8llbw/-Wi1A5eZhUaDwQ8JhCStnw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="1358, -8, 1936, 1048" BrowserType="Chrome" ContentHash="MjVnNR5Cu0ih67hKlWVDww" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFjSURBVDhPpZI9S8NAGMdPHEU/gJtfQNxKLtLBQRxKEV9ql7oIfgARfNt0EUEQpA4OjiI6aXOnHaSDOjhUnUVRtBTEQRAVYu7y+DR5IGkatMUf/Aj53/0vD0nYv3EEv1WCA7lDcfN8C97nCGMIXcMD3pXkJ01r8W06hjH7ONEbmiRWXV6Cr+olzE6n4Wk36WVUZwz2x9sx+AwX6pT94H5UwH67h1R6DPKLKS+nug+OdNZQJB2LQy47AlO5DNRwHw68nKo++ELXo8WwF/kBWJnJgPtyDqo06mVU9VHSnIiW/pKqPnCU7InbFNFG79BTR/JVqgbgwiv6jO9DoFva4nN4zToFbsCh2Q3A2mhrPFrway3MBbptjdC/8IgH3fymY5nLVAvAETu15GUljZIWxnyc+KU28AFV3DNJtYDab00T2CATXRTXoSxjk/bsURQAxcEOHO8KFwsUNYBPHsb1SuwErcPYD4gPkYOPlkNHAAAAAElFTkSuQmCC" Reference="OfdMemDqOUmbo7CxH8llbw/-Wi1A5eZhUaDwQ8JhCStnw" Selector="&lt;html app='chrome.exe' title='Demo Web Shop' /&gt;" Url="https://demowebshop.tricentis.com/" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="13a18994c99e7c45b2313bbc33a8c940.jpg" xmlns="">0rn195sRq3Eu4GZ6dXuC8Ow</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

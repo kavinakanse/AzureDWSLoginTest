@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="o2zTwpDg_EWFHl_Z-gQ0zQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demowebshop.tricentis.com/login" CVScreenId="5722c402-42e8-457a-bd4f-92979799c2c1" CvElementArea="1189, 538, 180, 22" CvType="InputBox" DesignTimeRectangle="1191, 540, 176, 19" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='Password' tag='INPUT' type='password' class='password' aaname='Password:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ea8836e3-c7b9-4621-8355-6695b892f59b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Demo Web Shop. Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5722c402-42e8-457a-bd4f-92979799c2c1" CvTextArea="1077, 543, 61, 12" CvTextArgument="Password:" CvType="Text" DesignTimeRectangle="1078, 543, 100, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password:' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password:' /&gt;" Guid="336a8cd7-e585-467a-8a75-96f54d830259" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bfdd89cadcec446c752b10ede6990df7.jpg" xmlns="">0ex93Utj5h0uQ0MmYFlyzWQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

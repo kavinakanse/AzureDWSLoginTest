@@ -1,0 +1,6 @@
+{
+  "Name": "DWSLoginTest",
+  "ProjectType": "Tests",
+  "Description": "Test Automation Project for Demo Web Shop login testcase.",
+  "MainFile": "Main.xaml"
+}

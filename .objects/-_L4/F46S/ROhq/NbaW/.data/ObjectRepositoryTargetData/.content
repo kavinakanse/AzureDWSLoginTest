@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mWOs-ml19UmTR47OobaX3A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demowebshop.tricentis.com/login" CVScreenId="b2852cab-4b41-40d0-a423-d00d52c04c94" CvElementArea="1321, 655, 55, 25" CvTextArea="1330, 661, 36, 14" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="1323, 657, 52, 22" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Log in' tag='INPUT' type='submit' /&gt;" Guid="f5aa7e9f-63cf-4058-b53c-4f5cc167f4c5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Demo Web Shop. Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e88eaffa2c754fbd2c250c4cf96fb862.jpg" xmlns="">0834xsS2wYE-Jr9VOo42w6w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

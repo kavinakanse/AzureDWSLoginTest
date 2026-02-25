@@ -1,0 +1,256 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="376,259" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="1316,1484" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Login to Demo Web Shop and verify login" sap:VirtualizedContainerService.HintSize="604,1461" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Login to Chrome Demo Web Shop" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="570,1378" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="beba721e-1331-43e5-8d89-5b7c55c79063" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="568,1184" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="beba721e-1331-43e5-8d89-5b7c55c79063" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="demowebshop.tricentis.com" CVScreenId="a63eae6d-cb2e-484e-9201-5265b58458c9" ContentHash="tKos2BZUHUS5s5ZX2KhnIQ" CvTextArea="1199, 251, 34, 14" CvTextArgument="Log in" CvType="Text" DesignTimeRectangle="1190, 251, 43, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='ico-login' tag='A' /&gt;" Guid="dc06b28b-3163-4bb7-9449-c8ebb5ff93c1" InformativeScreenshot="3c3280fe630600beed314e7321798cea.jpg" Reference="iixZzesjoEGIFRe-czTCqg/SSrDYB3jsEWzmkUBRZngVQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Demo Web Shop' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="a63eae6d-cb2e-484e-9201-5265b58458c9" CvTextArea="1132, 251, 47, 14" CvTextArgument="Register" CvType="Text" DesignTimeRectangle="1123, 251, 55, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ico-register' tag='A' type='' aaname='Register' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Register' /&gt;" Guid="457df99e-3914-440c-800b-49dc75d14c0f" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="DebuggerApi" ScopeIdentifier="beba721e-1331-43e5-8d89-5b7c55c79063" Text="user02@tricentis.test" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="demowebshop.tricentis.com/login" CVScreenId="9476a076-56b8-4673-950b-8c511949e6fa" CvElementArea="1191, 499, 177, 21" CvType="InputBox" DesignTimeRectangle="1191, 501, 176, 19" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='Email' tag='INPUT' type='text' class='email' aaname='Email:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="a2e4effa-8c6c-41f7-991d-8265e073ea1e" InformativeScreenshot="e5a473d64fa41c0832b84aa0541bc564.jpg" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Demo Web Shop. Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="9476a076-56b8-4673-950b-8c511949e6fa" CvTextArea="1077, 504, 37, 12" CvTextArgument="Email:" CvType="Text" DesignTimeRectangle="1078, 504, 100, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Email:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email:' /&gt;" Guid="673e2397-8430-4c3f-84d0-28977ae848af" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="DebuggerApi" ScopeIdentifier="beba721e-1331-43e5-8d89-5b7c55c79063" Text="Admin02" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="demowebshop.tricentis.com/login" CVScreenId="fa7fefe6-7ded-4123-97d4-27d0be9d9cfc" CvElementArea="1189, 538, 180, 22" CvType="InputBox" DesignTimeRectangle="1191, 540, 176, 19" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='Password' tag='INPUT' type='password' class='password' aaname='Password:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="39a4a6f0-27b4-4c79-8236-d3ae8a93e6e1" InformativeScreenshot="c08ac856cfab77ecd489e910e3369d6e.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Demo Web Shop. Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="fa7fefe6-7ded-4123-97d4-27d0be9d9cfc" CvTextArea="1077, 543, 61, 12" CvTextArgument="Password:" CvType="Text" DesignTimeRectangle="1078, 543, 100, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password:' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password:' /&gt;" Guid="c1df6bc0-c4eb-442d-aa81-232a9b4cf95b" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click the 'Log in' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="beba721e-1331-43e5-8d89-5b7c55c79063" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="demowebshop.tricentis.com/login" CVScreenId="dbac59b8-3e10-4659-9e49-a62aeb9999c5" ContentHash="VuQtTOE4G0C1wVEi49tdPw" CvElementArea="1321, 655, 55, 25" CvTextArea="1330, 661, 36, 14" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="1323, 657, 52, 22" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Log in' tag='INPUT' type='submit' /&gt;" Guid="48e377f7-55ca-4003-a40e-07222bec851c" InformativeScreenshot="e88eaffa2c754fbd2c250c4cf96fb862.jpg" Reference="iixZzesjoEGIFRe-czTCqg/30jTDYgWNEyqfKMa407vtQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Demo Web Shop. Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify control attribute after getting text" sap:VirtualizedContainerService.HintSize="534,244" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="TextString" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                <uta:VerifyControlAttribute.ActivityToTest>
+                  <ActivityAction>
+                    <uix:NGetText DisplayName="Get text from the 'Logged Id' element" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="500,111" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="beba721e-1331-43e5-8d89-5b7c55c79063" Version="V5">
+                      <uix:NGetText.OutUiElement>
+                        <OutArgument x:TypeArguments="ui:UiElement">
+                          <VariableReference x:TypeArguments="ui:UiElement">
+                            <VariableReference.Variable>
+                              <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                            </VariableReference.Variable>
+                          </VariableReference>
+                        </OutArgument>
+                      </uix:NGetText.OutUiElement>
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="demowebshop.tricentis.com" CVScreenId="93a02f6f-18ed-414d-a97d-b11051bcaeca" DesignTimeRectangle="1048, 251, 123, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl class='account' tag='A' type='' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="a9e99789-770d-405d-bca8-6bb051324354" InformativeScreenshot="d74a338dce3c0b325374a67c191407a4.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Demo Web Shop' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CVScreenId="93a02f6f-18ed-414d-a97d-b11051bcaeca" CvTextArea="1192, 251, 42, 14" CvTextArgument="Log out" CvType="Text" DesignTimeRectangle="1183, 251, 50, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ico-logout' tag='A' type='' aaname='Log out' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Log out' /&gt;" Guid="ad05bf65-efa3-43c7-b3da-e33c99fa5370" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                      <uix:NGetText.TextString>
+                        <OutArgument x:TypeArguments="x:String">
+                          <VariableReference x:TypeArguments="x:String">
+                            <VariableReference.Variable>
+                              <Variable x:TypeArguments="x:String" x:Name="__ReferenceID0" Name="_autogenerated_TextString" />
+                            </VariableReference.Variable>
+                          </VariableReference>
+                        </OutArgument>
+                      </uix:NGetText.TextString>
+                      <uix:NGetText.WordsInfo>
+                        <OutArgument x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)">
+                          <VariableReference x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)">
+                            <VariableReference.Variable>
+                              <Variable x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)" Name="_autogenerated_WordsInfo" />
+                            </VariableReference.Variable>
+                          </VariableReference>
+                        </OutArgument>
+                      </uix:NGetText.WordsInfo>
+                    </uix:NGetText>
+                  </ActivityAction>
+                </uta:VerifyControlAttribute.ActivityToTest>
+                <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                  <ActivityFunc x:TypeArguments="x:Object">
+                    <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1">
+                      <uta:ArgumentsBridge.Input>
+                        <InArgument x:TypeArguments="x:Object">
+                          <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}" />
+                        </InArgument>
+                      </uta:ArgumentsBridge.Input>
+                    </uta:ArgumentsBridge>
+                  </ActivityFunc>
+                </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                <uta:VerifyControlAttribute.Expression>
+                  <InArgument x:TypeArguments="x:String">["user02@tricentis.test"]</InArgument>
+                </uta:VerifyControlAttribute.Expression>
+              </uta:VerifyControlAttribute>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.OCREngine>
+          <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+            <ActivityFunc.Argument>
+              <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+            </ActivityFunc.Argument>
+          </ActivityFunc>
+        </uix:NApplicationCard.OCREngine>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="1358, -8, 1936, 1048" BrowserType="Chrome" ContentHash="a7NtVNh4y06TeRubsLGubw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFjSURBVDhPpZI9S8NAGMdPHEU/gJtfQNxKLtLBQRxKEV9ql7oIfgARfNt0EUEQpA4OjiI6aXOnHaSDOjhUnUVRtBTEQRAVYu7y+DR5IGkatMUf/Aj53/0vD0nYv3EEv1WCA7lDcfN8C97nCGMIXcMD3pXkJ01r8W06hjH7ONEbmiRWXV6Cr+olzE6n4Wk36WVUZwz2x9sx+AwX6pT94H5UwH67h1R6DPKLKS+nug+OdNZQJB2LQy47AlO5DNRwHw68nKo++ELXo8WwF/kBWJnJgPtyDqo06mVU9VHSnIiW/pKqPnCU7InbFNFG79BTR/JVqgbgwiv6jO9DoFva4nN4zToFbsCh2Q3A2mhrPFrway3MBbptjdC/8IgH3fymY5nLVAvAETu15GUljZIWxnyc+KU28AFV3DNJtYDab00T2CATXRTXoSxjk/bsURQAxcEOHO8KFwsUNYBPHsb1SuwErcPYD4gPkYOPlkNHAAAAAElFTkSuQmCC" InformativeScreenshot="13a18994c99e7c45b2313bbc33a8c940.jpg" Reference="OfdMemDqOUmbo7CxH8llbw/-Wi1A5eZhUaDwQ8JhCStnw" Selector="&lt;html app='chrome.exe' title='Demo Web Shop' /&gt;" Url="https://demowebshop.tricentis.com/" Version="V2">
+            <uix:TargetApp.Arguments>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.Arguments>
+            <uix:TargetApp.WorkingDirectory>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.WorkingDirectory>
+          </uix:TargetApp>
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

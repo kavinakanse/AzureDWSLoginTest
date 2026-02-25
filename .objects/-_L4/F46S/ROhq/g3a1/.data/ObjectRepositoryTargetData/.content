@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hbXn9I73IUC98D7vqGbhng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demowebshop.tricentis.com/login" CVScreenId="bae98350-c63d-40ab-a8e4-946dd5b88453" CvElementArea="1190, 499, 178, 21" CvType="InputBox" DesignTimeRectangle="1191, 501, 176, 19" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='Email' tag='INPUT' type='text' class='email' aaname='Email:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="805b1467-af03-41fd-a50f-86581773ff45" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Demo Web Shop. Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bae98350-c63d-40ab-a8e4-946dd5b88453" CvTextArea="1077, 504, 37, 12" CvTextArgument="Email:" CvType="Text" DesignTimeRectangle="1078, 504, 100, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Email:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email:' /&gt;" Guid="e9c0af55-d967-4088-b53a-1ab4253d380e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1372f207b21b0bb84ceef940cd9946bc.jpg" xmlns="">0LT8sA_y_3EuzrhBy4DzbNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
